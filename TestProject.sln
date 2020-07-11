@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7E41BD03-E8CC-462F-8CF2-7762EC451E0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rover", "src\rover\rover.csproj", "{92321F3E-8CDE-42A8-B1CA-92AC1CCE55BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rover", "src\rover\rover.csproj", "{92321F3E-8CDE-42A8-B1CA-92AC1CCE55BD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1D46620E-A9A2-405B-A057-0C5430BD6A10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rovertest", "test\rovertest\rovertest.csproj", "{25DF3F92-5BFD-469E-B446-241D92CF2E9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rovertest", "test\rovertest\rovertest.csproj", "{25DF3F92-5BFD-469E-B446-241D92CF2E9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{92321F3E-8CDE-42A8-B1CA-92AC1CCE55BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -49,8 +46,14 @@ Global
 		{25DF3F92-5BFD-469E-B446-241D92CF2E9C}.Release|x86.ActiveCfg = Release|Any CPU
 		{25DF3F92-5BFD-469E-B446-241D92CF2E9C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{92321F3E-8CDE-42A8-B1CA-92AC1CCE55BD} = {7E41BD03-E8CC-462F-8CF2-7762EC451E0B}
 		{25DF3F92-5BFD-469E-B446-241D92CF2E9C} = {1D46620E-A9A2-405B-A057-0C5430BD6A10}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {725AEB54-BA76-4E1E-9495-477BE32A9533}
 	EndGlobalSection
 EndGlobal
